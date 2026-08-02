@@ -1,0 +1,141 @@
+{
+    "name": "New Preset",
+    "gravity": 39.478,
+    "time_step": 0.001,
+    "integrator": "yoshida4",
+    "relativistic": false,
+    "pn_order": 0,
+    "speed_of_light": 63241.1,
+    "collision": "none",
+    "force_method": "direct",
+    "barnes_hut_theta": 0.5,
+    "tolerance": 1e-10,
+    "bodies": [
+        {
+            "name": "Body 1",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.01,
+            "position": [
+                -0.008991,
+                -0.665834,
+                -2.0
+            ],
+            "velocity": [
+                -3.0,
+                -1.0,
+                1.0
+            ],
+            "color": [
+                1.0,
+                0.3,
+                0.3
+            ]
+        },
+        {
+            "name": "Body 2",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.005,
+            "position": [
+                -0.453875,
+                1.903079,
+                1.0
+            ],
+            "velocity": [
+                3.0,
+                0.0,
+                0.0
+            ],
+            "color": [
+                0.3,
+                1.0,
+                0.3
+            ]
+        },
+        {
+            "name": "Body 3",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.003,
+            "position": [
+                -2.207128,
+                -2.254635,
+                2.0
+            ],
+            "velocity": [
+                2.0,
+                0.0,
+                0.0
+            ],
+            "color": [
+                0.3,
+                0.3,
+                1.0
+            ]
+        },
+        {
+            "name": "Body 4",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.008,
+            "position": [
+                -4.344531,
+                0.407533,
+                -1.0
+            ],
+            "velocity": [
+                -1.0,
+                -2.0,
+                1.0
+            ],
+            "color": [
+                1.0,
+                1.0,
+                0.3
+            ]
+        },
+        {
+            "name": "Body 5",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.01,
+            "position": [
+                -2.6073259891523115,
+                4.174292875368302,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "color": [
+                1.0,
+                0.3,
+                1.0
+            ]
+        },
+        {
+            "name": "Body 6",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.014000000000000002,
+            "position": [
+                -6.629392,
+                -2.845732,
+                4.0
+            ],
+            "velocity": [
+                0.0,
+                3.0,
+                0.0
+            ],
+            "color": [
+                0.3,
+                1.0,
+                1.0
+            ]
+        }
+    ]
+}

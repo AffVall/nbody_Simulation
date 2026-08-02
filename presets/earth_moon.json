@@ -1,0 +1,25 @@
+{
+    "name": "Earth-Moon System",
+    "gravity": 39.478,
+    "time_step": 0.0005,
+    "bodies": [
+        {
+            "name": "Earth",
+            "type": "planet",
+            "mass": 3.003e-6,
+            "radius": 4.26e-5,
+            "position": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "color": [0.2, 0.5, 1.0]
+        },
+        {
+            "name": "Moon",
+            "type": "moon",
+            "mass": 3.691e-8,
+            "radius": 1.16e-5,
+            "position": [0.00257, 0, 0],
+            "velocity": [0, 0, 0.216],
+            "color": [0.8, 0.8, 0.8]
+        }
+    ]
+}

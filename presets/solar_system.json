@@ -1,0 +1,52 @@
+{
+    "name": "Solar System (Inner)",
+    "gravity": 39.478,
+    "time_step": 0.001,
+    "bodies": [
+        {
+            "name": "Sun",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.00465,
+            "position": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "color": [1.0, 0.9, 0.3]
+        },
+        {
+            "name": "Mercury",
+            "type": "planet",
+            "mass": 1.660e-7,
+            "radius": 1.6e-5,
+            "position": [0.387, 0, 0],
+            "velocity": [0, 0, 9.991],
+            "color": [0.7, 0.7, 0.7]
+        },
+        {
+            "name": "Venus",
+            "type": "planet",
+            "mass": 2.448e-6,
+            "radius": 4.0e-5,
+            "position": [0.723, 0, 0],
+            "velocity": [0, 0, 7.387],
+            "color": [0.9, 0.7, 0.3]
+        },
+        {
+            "name": "Earth",
+            "type": "planet",
+            "mass": 3.003e-6,
+            "radius": 4.26e-5,
+            "position": [1.0, 0, 0],
+            "velocity": [0, 0, 6.283],
+            "color": [0.2, 0.5, 1.0]
+        },
+        {
+            "name": "Mars",
+            "type": "planet",
+            "mass": 3.227e-7,
+            "radius": 2.3e-5,
+            "position": [1.524, 0, 0],
+            "velocity": [0, 0, 5.078],
+            "color": [1.0, 0.4, 0.1]
+        }
+    ]
+}

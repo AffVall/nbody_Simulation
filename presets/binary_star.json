@@ -1,0 +1,25 @@
+{
+    "name": "Binary Star System",
+    "gravity": 39.478,
+    "time_step": 0.0002,
+    "bodies": [
+        {
+            "name": "Star A",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.00465,
+            "position": [-0.5, 0, 0],
+            "velocity": [0, 0, -4.44],
+            "color": [1.0, 0.8, 0.2]
+        },
+        {
+            "name": "Star B",
+            "type": "star",
+            "mass": 1.0,
+            "radius": 0.00465,
+            "position": [0.5, 0, 0],
+            "velocity": [0, 0, 4.44],
+            "color": [0.8, 0.6, 1.0]
+        }
+    ]
+}

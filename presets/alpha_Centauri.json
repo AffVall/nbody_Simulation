@@ -1,0 +1,61 @@
+{
+    "name": "Sistema Alpha Centauri Completo",
+    "gravity": 39.478,
+    "time_step": 0.001,
+    "bodies": [
+        {
+            "name": "Alpha Centauri A",
+            "type": "star",
+            "mass": 1.1,
+            "radius": 0.005,
+            "position": [0, 0, 0],
+            "velocity": [0, 0, 0],
+            "color": [1.0, 0.95, 0.8]
+        },
+        {
+            "name": "Alpha Centauri B",
+            "type": "star",
+            "mass": 0.9,
+            "radius": 0.004,
+            "position": [23.5, 0, 0],
+            "velocity": [0, 0, 4.0],
+            "color": [0.9, 0.8, 0.5]
+        },
+        {
+            "name": "Proxima Centauri",
+            "type": "star",
+            "mass": 0.12,
+            "radius": 0.0007,
+            "position": [13000, 0, 0],
+            "velocity": [0, 0, 0.2],
+            "color": [1.0, 0.6, 0.4]
+        },
+        {
+            "name": "Proxima b",
+            "type": "planet",
+            "mass": 3.7e-6,
+            "radius": 1.7e-5,
+            "position": [13000.0485, 0, 0],
+            "velocity": [0, 0, 50.4],
+            "color": [0.6, 0.6, 0.6]
+        },
+        {
+            "name": "Proxima c",
+            "type": "planet",
+            "mass": 2.2e-5,
+            "radius": 5.0e-5,
+            "position": [13001.49, 0, 0],
+            "velocity": [0, 0, 9.1],
+            "color": [0.4, 0.4, 0.4]
+        },
+        {
+            "name": "Alpha Cen Bb (candidato)",
+            "type": "planet",
+            "mass": 3.5e-6,
+            "radius": 1.5e-5,
+            "position": [23.504, 0, 0],
+            "velocity": [0, 0, 55.0],
+            "color": [0.8, 0.3, 0.2]
+        }
+    ]
+}
