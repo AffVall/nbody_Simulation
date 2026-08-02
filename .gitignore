@@ -1,2 +1,5 @@
 build
 output
+.git
+__pycache__
+tests
